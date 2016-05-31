@@ -130,4 +130,9 @@ Public Class Form1
             RichTextBox4.Text = type.FullName
         End If
     End Sub
+
+    Private Function TestGitHub()
+        Return String.Empty
+    End Function
+
 End Class
