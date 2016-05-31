@@ -1,0 +1,41 @@
+
+Public Sub GetRecord(ScRst, bFlag)
+     'On Error Resume Next
+     Dim ExcChild
+     Const adVarChar = 200
+     Const adInteger = 3
+     Const adDouble = 5
+     Dim i
+     dim rst 
+     
+     Set rst = ScRst
+    
+'初始化数据集Fields
+    If rst.Fields.Count = 0 Then
+       
+    End If
+
+    If rst.State = 0 Then
+        rst.Open
+    End If
+'填数据
+    call GetBillRst(rst,McDoc)
+
+End Sub
+
+
+Public Sub GetBillRst(Rst, mCol)
+	
+	For i = 0 To mCol.Count - 1
+		Set ProjChild = mCol.Item(i)
+        Select Case ProjChild.getobjtype
+			Case 0 '分部
+				 Set Proj = convt.ConvObjType(ProjChild)
+			Case 1   '清单
+			Case 2 '定额
+			Case 3  ' 主材
+			Case 5  '公式计算
+        End Select
+    Next
+
+End Sub    

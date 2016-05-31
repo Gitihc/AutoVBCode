@@ -1,0 +1,44 @@
+VB的转换函数包括： 
+CBool    	转换为Boolean类型         
+CByte   	转换为Byte类型 
+CCur   		转换为Currency类型 
+CDate   	转换为Date类型  
+CDbl   		转换为Double类型     
+CInt   		转换为Integer类型 
+CLng   		转换为Long类型 
+CSng   		转换为Single类型
+CStr   		转换为String类型
+CVar   		转换为Variant类型
+CVErr   	转换为Error类型
+
+
+VB中的常量字符有很多，如下：
+vbBack:backspace字符，即Chr$(8)
+vbCr:回车字符，即Chr$(13)
+vbCrLf:回车换行字符，即Chr$(13)+Chr$(10)
+vbLf:换行字符，即Chr$(10)
+vbFormFeed:ASCII 12,Chr$(12)
+vbNewLine:新行字符，一般在平台上使用
+vbNullChar:Null字符(ASCII 0)，即Chr$(0)
+vbObjectError:-2147221504 (&H80040000)
+vbTab:Tab字符，即Chr$(9)
+vbVerticalTab:垂直Tab字符，即Chr$(11)
+
+
+Function FormatVal(val, dotNum)
+	   if(not IsNumeric(val)) then 
+        val=0 
+      end if 
+    FormatVal = FormatNumber(val, 2, True, False, False)
+End Function
+
+'保留二位小数据
+Function FormatVals(val)
+		 if(not IsNumeric(val)) then 
+			val=0 
+		end if 
+        FormatVals = FormatNumber(val, 2, True, False, False)
+End Function
+
+rst.Fields("计算公式(送审)") = Convt.ConvExpreToCHN(bill.Expre)
+

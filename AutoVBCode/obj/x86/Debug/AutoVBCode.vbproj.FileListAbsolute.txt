@@ -1,0 +1,12 @@
+D:\My\projectcode\AutoVBCode\AutoVBCode\bin\Debug\AutoVBCode.exe
+D:\My\projectcode\AutoVBCode\AutoVBCode\bin\Debug\AutoVBCode.pdb
+D:\My\projectcode\AutoVBCode\AutoVBCode\bin\Debug\AutoVBCode.xml
+D:\My\projectcode\AutoVBCode\AutoVBCode\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\My\projectcode\AutoVBCode\AutoVBCode\obj\x86\Debug\AutoVBCode.Form1.resources
+D:\My\projectcode\AutoVBCode\AutoVBCode\obj\x86\Debug\AutoVBCode.Resources.resources
+D:\My\projectcode\AutoVBCode\AutoVBCode\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\My\projectcode\AutoVBCode\AutoVBCode\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\My\projectcode\AutoVBCode\AutoVBCode\obj\x86\Debug\AutoVBCode.exe
+D:\My\projectcode\AutoVBCode\AutoVBCode\obj\x86\Debug\AutoVBCode.xml
+D:\My\projectcode\AutoVBCode\AutoVBCode\obj\x86\Debug\AutoVBCode.pdb
+D:\My\projectcode\AutoVBCode\AutoVBCode\obj\x86\Debug\AutoVBCode.Form2.resources
