@@ -52,6 +52,7 @@
     <Reference Include="HlLibrary, Version=3.7.2.1, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\Debug\HlLibrary.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -118,8 +119,13 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="obj\x86\Debug\AutoVBCode.Form1.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\AutoVBCode.Form2.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\AutoVBCode.Resources.resources" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="App.config" />
+    <None Include="bin\Debug\AutoVBCode.vshost.exe.manifest" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -129,6 +135,25 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
+    <None Include="obj\x86\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="obj\x86\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\x86\Debug\GenerateResource.read.1.tlog" />
+    <None Include="obj\x86\Debug\GenerateResource.write.1.tlog" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\AutoVBCode.exe" />
+    <Content Include="bin\Debug\AutoVBCode.pdb" />
+    <Content Include="bin\Debug\AutoVBCode.vshost.exe" />
+    <Content Include="bin\Debug\AutoVBCode.xml" />
+    <Content Include="bin\Debug\HlLibrary.dll" />
+    <Content Include="bin\Debug\VB模版.txt" />
+    <Content Include="bin\Debug\VB的转换函数.txt" />
+    <Content Include="bin\Debug\模版.txt" />
+    <Content Include="obj\x86\Debug\AutoVBCode.exe" />
+    <Content Include="obj\x86\Debug\AutoVBCode.pdb" />
+    <Content Include="obj\x86\Debug\AutoVBCode.vbproj.FileListAbsolute.txt" />
+    <Content Include="obj\x86\Debug\AutoVBCode.xml" />
+    <Content Include="obj\x86\Debug\TempPE\My Project.Resources.Designer.vb.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

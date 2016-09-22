@@ -49,8 +49,28 @@ Public Class Form1
     End Function
 
     Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        'Dim start As Integer = -1000
+        'Dim endflag As Integer = 1000
+        'For a = start To endflag
+        '    For b = start To endflag
+        '        For c = start To endflag
+        '            For d = start To endflag
+        '                If (a - b = 9) AndAlso (c - d = 14) AndAlso (a + c = 12) AndAlso (b + d = 2) Then
+        '                    MsgBox(a & "-" & b & "-" & c & "-" & d)
+        '                End If
+        '            Next
+        '        Next
+        '    Next
+        'Next
+
+
         GetSub()
         GetClass()
+    End Sub
+
+    Sub test()
+        Dim str As String = "[{'ID':429,'Name':'测试-不要删除','Assign':'3','PSDate':'2016-04-01','PFDate':'2016-04-01','BeforeTask':'','LSDate':'2016-04-01','LFDate':'2016-04-01','TFDays':0,'FFDays':0,'Milepost':0,'Progress':0,'Persons':1,'state':'open','iconCls':'icon-criP'},{'ID':430,'Name':'任务名称','Assign':'3','PSDate':'2016-04-04','PFDate':'2016-04-19','BeforeTask':'','LSDate':'2016-04-04','LFDate':'2016-04-19','TFDays':0,'FFDays':0,'Milepost':0,'Progress':0,'Persons':12,'children':[{'ID':431,'Name':'任务名称','Assign':'3','PSDate':'2016-04-04','PFDate':'2016-04-14','BeforeTask':'1','LSDate':'2016-04-07','LFDate':'2016-04-19','TFDays':3,'FFDays':3,'Milepost':0,'Progress':0,'Persons':9,'_parentId':430,'state':'open','iconCls':'icon-Task'},{'ID':436,'Name':'任务名称','Assign':'25','PSDate':'2016-04-04','PFDate':'2016-04-19','BeforeTask':'1','LSDate':'2016-04-04','LFDate':'2016-04-19','TFDays':0,'FFDays':0,'Milepost':0,'Progress':0,'Persons':12,'_parentId':430,'state':'open','iconCls':'icon-criP'}],'state':'open','iconCls':'icon-criP'}]"
+        Dim matchs As MatchCollection = Regex.Matches(str, "")
     End Sub
 
     Public Sub GetSub()
